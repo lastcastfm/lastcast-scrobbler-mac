@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17267DD22490193B00381D6D /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17267DD12490193B00381D6D /* UserSettings.swift */; };
+		177F013624796ADB00FAA461 /* Collecting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F013524796ADB00FAA461 /* Collecting.swift */; };
+		177F013824797CF500FAA461 /* Submitting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F013724797CF500FAA461 /* Submitting.swift */; };
+		17D10DCE247955C000968BAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D10DCD247955C000968BAC /* AppDelegate.swift */; };
+		17D10DD0247955C000968BAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D10DCF247955C000968BAC /* ContentView.swift */; };
+		17D10DD2247955C100968BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D10DD1247955C100968BAC /* Assets.xcassets */; };
+		17D10DD5247955C100968BAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D10DD4247955C100968BAC /* Preview Assets.xcassets */; };
+		17D10DD8247955C100968BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17D10DD6247955C100968BAC /* Main.storyboard */; };
+		17F9CA8F24A8B8B000FEB621 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 17F9CA8E24A8B8B000FEB621 /* SQLite */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17267DD12490193B00381D6D /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		177F013524796ADB00FAA461 /* Collecting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collecting.swift; sourceTree = "<group>"; };
+		177F013724797CF500FAA461 /* Submitting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Submitting.swift; sourceTree = "<group>"; };
+		17D10DCA247955C000968BAC /* Lastcast for Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lastcast for Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D10DCD247955C000968BAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17D10DCF247955C000968BAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		17D10DD1247955C100968BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17D10DD4247955C100968BAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17D10DD7247955C100968BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17D10DD9247955C100968BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17D10DDA247955C100968BAC /* Lastcast_for_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lastcast_for_Mac.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17D10DC7247955C000968BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17F9CA8F24A8B8B000FEB621 /* SQLite in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17D10DC1247955C000968BAC = {
+			isa = PBXGroup;
+			children = (
+				17D10DCC247955C000968BAC /* Lastcast for Mac */,
+				17D10DCB247955C000968BAC /* Products */,
+				17F9CA8D24A8B8B000FEB621 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		17D10DCB247955C000968BAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17D10DCA247955C000968BAC /* Lastcast for Mac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17D10DCC247955C000968BAC /* Lastcast for Mac */ = {
+			isa = PBXGroup;
+			children = (
+				17D10DCD247955C000968BAC /* AppDelegate.swift */,
+				17D10DCF247955C000968BAC /* ContentView.swift */,
+				177F013524796ADB00FAA461 /* Collecting.swift */,
+				177F013724797CF500FAA461 /* Submitting.swift */,
+				17D10DD1247955C100968BAC /* Assets.xcassets */,
+				17D10DD6247955C100968BAC /* Main.storyboard */,
+				17267DD12490193B00381D6D /* UserSettings.swift */,
+				17D10DD9247955C100968BAC /* Info.plist */,
+				17D10DDA247955C100968BAC /* Lastcast_for_Mac.entitlements */,
+				17D10DD3247955C100968BAC /* Preview Content */,
+			);
+			path = "Lastcast for Mac";
+			sourceTree = "<group>";
+		};
+		17D10DD3247955C100968BAC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				17D10DD4247955C100968BAC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		17F9CA8D24A8B8B000FEB621 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17D10DC9247955C000968BAC /* Lastcast for Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17D10DDD247955C100968BAC /* Build configuration list for PBXNativeTarget "Lastcast for Mac" */;
+			buildPhases = (
+				17D10DC6247955C000968BAC /* Sources */,
+				17D10DC7247955C000968BAC /* Frameworks */,
+				17D10DC8247955C000968BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lastcast for Mac";
+			packageProductDependencies = (
+				17F9CA8E24A8B8B000FEB621 /* SQLite */,
+			);
+			productName = "Lastcast for Mac";
+			productReference = 17D10DCA247955C000968BAC /* Lastcast for Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17D10DC2247955C000968BAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Philipp Defner";
+				TargetAttributes = {
+					17D10DC9247955C000968BAC = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 17D10DC5247955C000968BAC /* Build configuration list for PBXProject "Lastcast for Mac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17D10DC1247955C000968BAC;
+			packageReferences = (
+				17267DCE248FD31800381D6D /* XCRemoteSwiftPackageReference "SQLite" */,
+			);
+			productRefGroup = 17D10DCB247955C000968BAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17D10DC9247955C000968BAC /* Lastcast for Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17D10DC8247955C000968BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D10DD8247955C100968BAC /* Main.storyboard in Resources */,
+				17D10DD5247955C100968BAC /* Preview Assets.xcassets in Resources */,
+				17D10DD2247955C100968BAC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17D10DC6247955C000968BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D10DD0247955C000968BAC /* ContentView.swift in Sources */,
+				177F013824797CF500FAA461 /* Submitting.swift in Sources */,
+				17D10DCE247955C000968BAC /* AppDelegate.swift in Sources */,
+				17267DD22490193B00381D6D /* UserSettings.swift in Sources */,
+				177F013624796ADB00FAA461 /* Collecting.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		17D10DD6247955C100968BAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17D10DD7247955C100968BAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17D10DDB247955C100968BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17D10DDC247955C100968BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		17D10DDE247955C100968BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Lastcast for Mac/Lastcast_for_Mac.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Lastcast for Mac/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Lastcast for Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "fm.lastcast.Lastcast-for-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		17D10DDF247955C100968BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Lastcast for Mac/Lastcast_for_Mac.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Lastcast for Mac/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Lastcast for Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "fm.lastcast.Lastcast-for-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17D10DC5247955C000968BAC /* Build configuration list for PBXProject "Lastcast for Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D10DDB247955C100968BAC /* Debug */,
+				17D10DDC247955C100968BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17D10DDD247955C100968BAC /* Build configuration list for PBXNativeTarget "Lastcast for Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D10DDE247955C100968BAC /* Debug */,
+				17D10DDF247955C100968BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		17267DCE248FD31800381D6D /* XCRemoteSwiftPackageReference "SQLite" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.12.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		17F9CA8E24A8B8B000FEB621 /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17267DCE248FD31800381D6D /* XCRemoteSwiftPackageReference "SQLite" */;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 17D10DC2247955C000968BAC /* Project object */;
+}
