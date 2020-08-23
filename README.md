@@ -14,10 +14,3 @@ It works by reading the local database of Apple Podcasts that’s synced via iCl
 ## Development
 
 This project is my first Swift / SwiftUI project and this probably shows. Contributions, criticism and hints are very appreciated. The current status is that it “works for me” and isn’t tested in a lot of conditions.
-
-## Currently Missing
-
-- Code signing
-- Sparkle updates
-- Proper error handling
-- Maybe sandboxing
