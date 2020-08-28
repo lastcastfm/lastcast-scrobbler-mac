@@ -314,7 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Lastcast for Mac/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 37849RDP7D;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Lastcast for Mac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -338,7 +338,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Lastcast for Mac/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 37849RDP7D;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Lastcast for Mac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
