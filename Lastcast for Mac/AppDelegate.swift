@@ -8,6 +8,7 @@
 
 import Cocoa
 import SwiftUI
+import Sparkle
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -29,6 +30,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         window.setFrameAutosaveName("Main Window")
         window.contentView = NSHostingView(rootView: contentView)
         window.makeKeyAndOrderFront(nil)
+        
+        SUUpdater.shared()?.checkForUpdatesInBackground()
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
@@ -38,3 +41,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 }
 
+extension AppDelegate {
+    @IBAction func checkForUpdates(_ sender: AnyObject?) {
+        SUUpdater.shared()?.checkForUpdates(nil)
+    }
+}
