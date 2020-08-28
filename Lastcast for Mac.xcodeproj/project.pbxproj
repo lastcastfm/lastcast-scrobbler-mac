@@ -16,6 +16,7 @@
 		17D10DD5247955C100968BAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D10DD4247955C100968BAC /* Preview Assets.xcassets */; };
 		17D10DD8247955C100968BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17D10DD6247955C100968BAC /* Main.storyboard */; };
 		17F9CA8F24A8B8B000FEB621 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 17F9CA8E24A8B8B000FEB621 /* SQLite */; };
+		6F386684A1CD7787145317CB /* Pods_Lastcast_for_Mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFBA96E86E316D95A9414893 /* Pods_Lastcast_for_Mac.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,9 @@
 		17D10DD7247955C100968BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17D10DD9247955C100968BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17D10DDA247955C100968BAC /* Lastcast_for_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lastcast_for_Mac.entitlements; sourceTree = "<group>"; };
+		B1D11EB5E4451C9919A88D83 /* Pods-Lastcast for Mac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lastcast for Mac.debug.xcconfig"; path = "Target Support Files/Pods-Lastcast for Mac/Pods-Lastcast for Mac.debug.xcconfig"; sourceTree = "<group>"; };
+		CFBA96E86E316D95A9414893 /* Pods_Lastcast_for_Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lastcast_for_Mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8A5EE0884FB444817FB034 /* Pods-Lastcast for Mac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lastcast for Mac.release.xcconfig"; path = "Target Support Files/Pods-Lastcast for Mac/Pods-Lastcast for Mac.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17F9CA8F24A8B8B000FEB621 /* SQLite in Frameworks */,
+				6F386684A1CD7787145317CB /* Pods_Lastcast_for_Mac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +55,7 @@
 				17D10DCC247955C000968BAC /* Lastcast for Mac */,
 				17D10DCB247955C000968BAC /* Products */,
 				17F9CA8D24A8B8B000FEB621 /* Frameworks */,
+				D0260906041D1A10A4C26517 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,8 +95,18 @@
 		17F9CA8D24A8B8B000FEB621 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CFBA96E86E316D95A9414893 /* Pods_Lastcast_for_Mac.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0260906041D1A10A4C26517 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1D11EB5E4451C9919A88D83 /* Pods-Lastcast for Mac.debug.xcconfig */,
+				EE8A5EE0884FB444817FB034 /* Pods-Lastcast for Mac.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17D10DDD247955C100968BAC /* Build configuration list for PBXNativeTarget "Lastcast for Mac" */;
 			buildPhases = (
+				5FE56E1042F2A31EC1EE84FF /* [CP] Check Pods Manifest.lock */,
 				17D10DC6247955C000968BAC /* Sources */,
 				17D10DC7247955C000968BAC /* Frameworks */,
 				17D10DC8247955C000968BAC /* Resources */,
+				EE7EE58E4EDEB2F0396EB688 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,6 +182,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FE56E1042F2A31EC1EE84FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lastcast for Mac-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE7EE58E4EDEB2F0396EB688 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lastcast for Mac/Pods-Lastcast for Mac-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lastcast for Mac/Pods-Lastcast for Mac-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lastcast for Mac/Pods-Lastcast for Mac-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		17D10DC6247955C000968BAC /* Sources */ = {
@@ -307,6 +367,7 @@
 		};
 		17D10DDE247955C100968BAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1D11EB5E4451C9919A88D83 /* Pods-Lastcast for Mac.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Lastcast for Mac/Lastcast_for_Mac.entitlements";
@@ -331,6 +392,7 @@
 		};
 		17D10DDF247955C100968BAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE8A5EE0884FB444817FB034 /* Pods-Lastcast for Mac.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Lastcast for Mac/Lastcast_for_Mac.entitlements";
