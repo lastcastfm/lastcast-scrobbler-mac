@@ -10,13 +10,13 @@
 		17267DD22490193B00381D6D /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17267DD12490193B00381D6D /* UserSettings.swift */; };
 		177F013624796ADB00FAA461 /* Collecting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F013524796ADB00FAA461 /* Collecting.swift */; };
 		177F013824797CF500FAA461 /* Submitting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F013724797CF500FAA461 /* Submitting.swift */; };
+		17CA501C24F9B8D90000620A /* Pods_Lastcast_for_Mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFBA96E86E316D95A9414893 /* Pods_Lastcast_for_Mac.framework */; };
 		17D10DCE247955C000968BAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D10DCD247955C000968BAC /* AppDelegate.swift */; };
 		17D10DD0247955C000968BAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D10DCF247955C000968BAC /* ContentView.swift */; };
 		17D10DD2247955C100968BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D10DD1247955C100968BAC /* Assets.xcassets */; };
 		17D10DD5247955C100968BAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D10DD4247955C100968BAC /* Preview Assets.xcassets */; };
 		17D10DD8247955C100968BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17D10DD6247955C100968BAC /* Main.storyboard */; };
 		17F9CA8F24A8B8B000FEB621 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 17F9CA8E24A8B8B000FEB621 /* SQLite */; };
-		6F386684A1CD7787145317CB /* Pods_Lastcast_for_Mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFBA96E86E316D95A9414893 /* Pods_Lastcast_for_Mac.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +42,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17F9CA8F24A8B8B000FEB621 /* SQLite in Frameworks */,
-				6F386684A1CD7787145317CB /* Pods_Lastcast_for_Mac.framework in Frameworks */,
+				17CA501C24F9B8D90000620A /* Pods_Lastcast_for_Mac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +375,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Lastcast for Mac/Preview Content\"";
-				DEVELOPMENT_TEAM = 37849RDP7D;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Lastcast for Mac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -383,6 +383,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 0.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "fm.lastcast.Lastcast-for-Mac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -400,7 +401,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Lastcast for Mac/Preview Content\"";
-				DEVELOPMENT_TEAM = 37849RDP7D;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Lastcast for Mac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -408,6 +409,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 0.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "fm.lastcast.Lastcast-for-Mac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

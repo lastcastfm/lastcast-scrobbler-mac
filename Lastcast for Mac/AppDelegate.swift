@@ -36,6 +36,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
+        print("testing something for code signing")
+        print("even more for code signing signature")
     }
 
 
