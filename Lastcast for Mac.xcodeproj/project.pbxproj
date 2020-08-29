@@ -10,7 +10,7 @@
 		17267DD22490193B00381D6D /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17267DD12490193B00381D6D /* UserSettings.swift */; };
 		177F013624796ADB00FAA461 /* Collecting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F013524796ADB00FAA461 /* Collecting.swift */; };
 		177F013824797CF500FAA461 /* Submitting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F013724797CF500FAA461 /* Submitting.swift */; };
-		17CA501C24F9B8D90000620A /* Pods_Lastcast_for_Mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFBA96E86E316D95A9414893 /* Pods_Lastcast_for_Mac.framework */; };
+		17CA501C24F9B8D90000620A /* Pods_Lastcast_for_Mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFBA96E86E316D95A9414893 /* Pods_Lastcast_for_Mac.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		17D10DCE247955C000968BAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D10DCD247955C000968BAC /* AppDelegate.swift */; };
 		17D10DD0247955C000968BAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D10DCF247955C000968BAC /* ContentView.swift */; };
 		17D10DD2247955C100968BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D10DD1247955C100968BAC /* Assets.xcassets */; };
@@ -375,7 +375,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Lastcast for Mac/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 37849RDP7D;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Lastcast for Mac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -401,7 +401,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Lastcast for Mac/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 37849RDP7D;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Lastcast for Mac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
