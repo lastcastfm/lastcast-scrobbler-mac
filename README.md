@@ -7,6 +7,10 @@ Lastcast for Mac is the native scrobbler app for macOS. It currently supports:
 
 It works by reading the local database of Apple Podcasts that’s synced via iCloud from all your devices. It submits your listening data to [lastcast.fm](https://lastcast.fm) where you can track your listening habits and get personal statistics.
 
+## Download 
+
+You can download the latest version [here](https://lastcast.fra1.digitaloceanspaces.com/apps/lastcast-for-mac/Lastcast%20for%20Mac.app-0.1.2.zip).
+
 ## Screenshot
 
 ![Lastcast for Mac](https://lastcast.fra1.digitaloceanspaces.com/public/Lastcast%20for%20Mac.png)
