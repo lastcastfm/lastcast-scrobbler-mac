@@ -21,8 +21,9 @@ func scrobble() {
                                     isDirectory: true)
     
     // Source URL, should later be the Podcasts.app container
-    let homeDirURL = FileManager.default.homeDirectoryForCurrentUser
-    let fileURL = URL(fileURLWithPath: homeDirURL.relativePath + "/Library/Group Containers/243LU875E5.groups.com.apple.podcasts/Documents/MTLibrary.sqlite")
+    let libraryPath = UserDefaults.standard.string(forKey: "apple_podcasts_library_path")
+    let fileURL = URL(fileURLWithPath: libraryPath!)
+        
     let fileExists = FileManager.default.fileExists(atPath: fileURL.path)
     let tempFilePath = temporaryDirectoryURL.appendingPathComponent("MTLibrary_lastcast_copy.sqlite")
     if fileExists{

@@ -38,7 +38,8 @@ class UserSettings: ObservableObject {
     }
     
     init() {
-        self.endpoint = UserDefaults.standard.string(forKey: "endpoint") ?? ""
+        // Set values based on what's in the UserDefaults
+        self.endpoint = UserDefaults.standard.string(forKey: "endpoint") ?? "https://lastcast.fm/api/v1/scrobbles"
         self.apiToken = UserDefaults.standard.string(forKey: "api_token") ?? ""
         self.applePodcastslibraryPath = UserDefaults.standard.string(forKey: "apple_podcasts_library_path") ?? ""
     }

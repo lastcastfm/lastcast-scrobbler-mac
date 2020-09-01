@@ -15,10 +15,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     var window: NSWindow!
 
-
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Create the SwiftUI view that provides the window contents.
-        let settings = UserSettings()
+        let settings = UserSettings()      
         let contentView = ContentView().environmentObject(settings)
         
         // Create the window and set the content view. 
@@ -37,6 +36,15 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationWillTerminate(_ aNotification: Notification) {
     }
 
+    // applicationDidFinishLaunching is running after viewControllers are initialized, so we have to register everything here before
+    override init() {
+        let homeDirURL = FileManager.default.homeDirectoryForCurrentUser
+        let path = homeDirURL.relativePath + "/Library/Group Containers/243LU875E5.groups.com.apple.podcasts/Documents/MTLibrary.sqlite"
+                 
+        // Set default values
+        UserDefaults.standard.register(defaults: ["endpoint" : "https://lastcast.fm/api/v1/scrobbles"])
+        UserDefaults.standard.register(defaults: ["apple_podcasts_library_path" : path])
+    }
 
 }
 
